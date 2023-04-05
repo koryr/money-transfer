@@ -1,6 +1,14 @@
 
 ## Pezesha Microservice with REST API for Money Transfer between Accounts
 ## Task: 1
+### Technologies Used
+#### Spring Boot 3
+#### Java 17
+#### Postgresql
+
+----------------------------------------------------------------------------------
+### Testing Instructions
+
 ## API
 
 ## End-point: Login
