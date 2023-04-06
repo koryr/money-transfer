@@ -2,10 +2,10 @@
 ## Pezesha Microservice with REST API for Money Transfer between Accounts
 ## Task: 1
 ### Technologies Used
-1. Spring Boot 3
+1. Spring Boot 3.8.8
 2. Java 17
 3. Postgresql
-4. Maven
+4. Maven 3
 
 ----------------------------------------------------------------------------------
 ### Testing Instructions
@@ -17,11 +17,10 @@ git clone https://github.com/koryr/money-transfer.git
 Setup config properties with correct database credentials.
 in your terminal cd to root folder of the project.
 ```
-mvn package #to build the project.
-cd target 
+mvn spring-boot:run  #to build the project.
 
 ```
-
+Use postman to access API endpoint on localhost:8080
 
 ## API
 
