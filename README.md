@@ -20,6 +20,9 @@ in your terminal cd to root folder of the project.
 mvn spring-boot:run  #to build the project.
 
 ```
+If successful run sql script found on resource/script folder to create default user which will be use to create access Token
+```
+```
 Use postman to access API endpoint on localhost:8080
 
 ## API
