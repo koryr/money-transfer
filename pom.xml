@@ -14,6 +14,8 @@
 	<name>money-transfer</name>
 	<description>Pezesha Money-transfer</description>
 	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -74,6 +76,7 @@
 	<build>
 		<finalName>money-transfer</finalName>
 		<plugins>
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -85,6 +88,7 @@
 						</exclude>
 					</excludes>
 				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
